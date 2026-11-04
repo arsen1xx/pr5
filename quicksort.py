@@ -66,6 +66,6 @@ if __name__ == "__main__":
             quick_sort(a, asc)
             elapsed = time.perf_counter() - start
 
-            direction = "За зростанням" if asc else "За спаданням"
+            direction = "за зростанням" if asc else "за спаданням"
             result = is_sorted(a, asc)
             print(f"  {direction}: {elapsed:.4f} c, впорядкований: {result}")
